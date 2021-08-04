@@ -1,0 +1,9 @@
+numpy
+joblib
+django
+gunicorn
+django-heroku
+flask_cors
+pyod
+pandas
+flask

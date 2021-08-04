@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "498613075801",
+    "project_id": "smart-traffic-354cd",
+    "storage_bucket": "smart-traffic-354cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498613075801:android:c6e75a370d643df6a39648",
+        "android_client_info": {
+          "package_name": "com.straffic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498613075801-qecvciu5a5lh0fvhn3dvjefsai841fdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsiagRB60oAQj0dEdgiiN-3O0CYwt9S1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498613075801-qecvciu5a5lh0fvhn3dvjefsai841fdk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

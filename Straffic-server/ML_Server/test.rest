@@ -1,0 +1,117 @@
+POST http://127.0.0.1:5000/predict/traffic_density HTTP/1.1
+content-type: application/json
+
+{
+    "data":[
+        {
+            "temperature": 30,
+            "noise": 500,
+            "gas": 1
+        },
+        {
+            "temperature": 35,
+            "noise": 150,
+            "gas": 1
+        },
+        {
+            "temperature": 20,
+            "noise": 100,
+            "gas": 0
+        }
+    ]
+}
+
+###
+POST localhost/predict/traffic_density HTTP/1.1
+content-type: application/json
+
+{
+    "data":[
+        {
+            "temperature": 30,
+            "noise": 500,
+            "gas": 1
+        },
+        {
+            "temperature": 35,
+            "noise": 150,
+            "gas": 1
+        },
+        {
+            "temperature": 20,
+            "noise": 100,
+            "gas": 0
+        }
+    ]
+}
+
+###
+POST http://127.0.0.1:5000/predict/anomaly_detection HTTP/1.1
+content-type: application/json
+
+{
+    "data":[
+        {
+            "temperature": 26,
+            "noise": 300,
+            "gas": 1
+        },
+        {
+            "temperature": 35,
+            "noise": 700,
+            "gas": 1
+        },
+        {
+            "temperature": 60,
+            "noise": 100,
+            "gas": 0
+        }
+    ]
+}
+
+###
+POST localhost/predict/anomaly_detection HTTP/1.1
+content-type: application/json
+
+{
+    "data":[
+        {
+            "temperature": 34,
+            "noise": 468,
+            "gas": 0
+        },
+        {
+            "temperature": 35,
+            "noise": 700,
+            "gas": 1
+        },
+        {
+            "temperature": 60,
+            "noise": 100,
+            "gas": 0
+        }
+    ]
+}
+
+
+###
+POST http://127.0.0.1:5000/predict/traffic_light_time HTTP/1.1
+content-type: application/json
+
+{
+    "data":[
+        0,
+        0
+    ]
+}
+
+###
+POST localhost/predict/traffic_light_time HTTP/1.1
+content-type: application/json
+
+{
+    "data":[
+        12,
+        24
+    ]
+}
